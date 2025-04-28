@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: Dungeon Map Markers |cFFFF8080-tilr-|r
+## Notes: Shows dungeon and raid locations on the world map
+## Version: 1.0
+## SavedVariables: DungeonMapMarkersDB
+
+DungeonMapMarkers.lua
