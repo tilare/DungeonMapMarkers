@@ -1,6 +1,7 @@
 # ModernMapMarkers for TurtleWoW
 Places markers on the world map to show the locations of dungeons, raids, world bosses, boats, zeppelins, and trams.
-/mmm to open the config menu
+
+**/mmm** to open the config menu
 
 Additionally, if you have Atlas and Atlas Quest installed, when you click the tooltip it will open Atlas and show you the right map and available quests.
 
