@@ -2,7 +2,7 @@
 ## Title: |cff7fff7fM|cffffffffodern |cff7fff7fM|cffffffffap |cff7fff7fM|cffffffffarkers
 ## Author: tilr & Heallios
 ## Notes: Shows dungeon, raid, world boss, boat, zeppelin, and tram locations on the world map
-## Version: 1.2
+## Version: 1.0
 ## OptionalDeps: Atlas, AtlasQuest
 ## SavedVariables: ModernMapMarkersDB
 
