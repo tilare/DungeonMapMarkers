@@ -29,7 +29,7 @@ local points = {
     -- Kalimdor Transport
     {1, 9, 0.512, 0.135, "Zeppelin to UC & Grom'Gol", "zepp", "Horde", nil},  -- horde
     {1, 9, 0.440, 0.174, "Zeppelin to TB & Kargath", "zepp", "Horde", nil},   -- horde
-    {1, 28, 0.165, 0.230, "Zeppelin to TB & Kargath", "zepp", "Horde", nil},  -- horde
+    {1, 28, 0.165, 0.230, "Zeppelin to Orgrimmar", "zepp", "Horde", nil},  -- horde
     {1, 9, 0.598, 0.236, "Boat to Revantusk Village ", "boat", "Horde", nil},  -- horde
     {1, 26, 0.636, 0.389, "Boat to Booty Bay", "boat", "Neutral", nil},  -- neutral
 	{1, 6, 0.324, 0.44, "Boat to Stormwind", "boat", "Alliance", nil}, -- alliance
