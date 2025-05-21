@@ -140,7 +140,6 @@ local function CreateMapPin(parent, x, y, size, texture, tooltipText, tooltipInf
     pin:SetScript("OnEnter", function()
         WorldMapTooltip:SetOwner(pin, "ANCHOR_BOTTOMRIGHT", -15, 15)
         WorldMapTooltip:SetText(tooltipText, 1, 1 ,1)
-        WorldMapTooltip:AddLine(" ")
         if tooltipInfo == "Alliance" then
             WorldMapTooltip:AddLine(tooltipInfo, 0.145, 0.588, 0.745)
         elseif tooltipInfo == "Horde" then
