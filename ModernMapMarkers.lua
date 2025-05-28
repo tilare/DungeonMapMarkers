@@ -42,7 +42,7 @@ local points = {
     -- Eastern Kingdoms Dungeons
     {2, 23, 0.371, 0.857, "Blackrock Depths", "dungeon", "52-60", 1},
 	{2, 7, 0.328, 0.362, "Blackrock Depths", "dungeon", "52-60", 1},
-    {2, 35, 0.41, 0.68, "The Deadmines", "dungeon", "17-24", 3},
+    {2, 35, 0.423, 0.726, "The Deadmines", "dungeon", "17-24", 3},
     {2, 14, 0.30, 0.27, "Gilneas City", "dungeon", "43", 4},
     {2, 9, 0.248, 0.337, "Gnomeregan", "dungeon", "29-38", 5},
     {2, 7, 0.95, 0.53, "Hateforge Quarry", "dungeon", "52-60", 6},
