@@ -87,8 +87,8 @@ local points = {
 	{2, 36, 0.068, 0.613, "Boat to Theramore Isle", "boat", "Alliance", nil},  -- alliance
 	{2, 25, 0.218, 0.563, "Boat to Auberdine", "boat", "Alliance", nil}, -- alliance
 	{2, 26, 0.257, 0.73, "Boat to Ratchet", "boat", "Neutral", nil}, -- neutral
-	{2, 31, 0.616, 0.571, "Zeppelin to Orgrimmar & Grom'Gol", "zepp", "Horde", nil}, -- horde
-	{2, 26, 0.312, 0.298, "Zeppelin to UC & Orgrimmar", "zepp", "Horde", nil}, -- Horde
+	{2, 31, 0.616, 0.571, "Zeppelins to Orgrimmar & Grom'Gol", "zepp", "Horde", nil}, -- horde
+	{2, 26, 0.312, 0.298, "Zeppelins to UC & Orgrimmar", "zepp", "Horde", nil}, -- Horde
 	{2, 4, 0.075, 0.480, "Zeppelin to Orgrimmar", "zepp", "Horde",  nil}, -- Horde
 	{2, 1, 0.531, 0.047, "Boat to Auberdine", "boat", "Alliance", nil}, -- alliance
 }
