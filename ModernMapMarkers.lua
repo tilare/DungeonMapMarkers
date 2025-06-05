@@ -27,8 +27,8 @@ local points = {
 	{1, 2, 0.937, 0.355, "Emerald Dragon - Spawn Point 1 of 4", "worldboss", "60", nil},
 	{1, 12, 0.512, 0.108, "Emerald Dragon - Spawn Point 2 of 4", "worldboss", "60", nil},
     -- Kalimdor Transport
-    {1, 9, 0.512, 0.135, "Zeppelin to UC & Grom'Gol", "zepp", "Horde", nil},  -- horde
-    {1, 9, 0.440, 0.174, "Zeppelin to TB & Kargath", "zepp", "Horde", nil},   -- horde
+    {1, 9, 0.512, 0.135, "Zeppelins to UC & Grom'Gol", "zepp", "Horde", nil},  -- horde
+    {1, 9, 0.415, 0.184, "Zeppelins to TB & Kargath", "zepp", "Horde", nil},   -- horde
     {1, 28, 0.165, 0.230, "Zeppelin to Orgrimmar", "zepp", "Horde", nil},  -- horde
     {1, 9, 0.598, 0.236, "Boat to Revantusk Village ", "boat", "Horde", nil},  -- horde
     {1, 26, 0.636, 0.389, "Boat to Booty Bay", "boat", "Neutral", nil},  -- neutral
