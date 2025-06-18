@@ -91,6 +91,133 @@ local points = {
 	{2, 26, 0.312, 0.298, "Zeppelins to UC & Orgrimmar", "zepp", "Horde", nil}, -- Horde
 	{2, 4, 0.075, 0.480, "Zeppelin to Orgrimmar", "zepp", "Horde",  nil}, -- Horde
 	{2, 1, 0.531, 0.047, "Boat to Auberdine", "boat", "Alliance", nil}, -- alliance
+    -- Mailboxes (used https://database.turtle-wow.org/?search=mailbox to find locations)
+    -- Alliance Mailbox
+    {2,36,0.108,0.597, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,36,0.357,0.628, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,36,0.491,0.612, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,25,0.400,0.844, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,25,0.542,0.666, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,25,0.710,0.410, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,12,0.429,0.655, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,12,0.480,0.418, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,16,0.426,0.534, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,16,0.504,0.587, "Alliance Mailbox", "mail", "Alliance", nil},
+    {1,10,0.659,0.453, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,35,0.531,0.533, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,20,0.264,0.465, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,24,0.676,0.827, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,11,0.809,0.585, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,6,0.640,0.192, "Alliance Mailbox", "mail", "Alliance", nil},
+    {2,10,0.737,0.461, "Alliance Mailbox", "mail", "Alliance", nil},
+    -- Carved Mailbox
+    {1,26,0.451,0.587, "Carved Mailbox", "mail", "Horde", nil},
+    {1,12,0.511,0.613, "Carved Mailbox", "mail", "Horde", nil},
+    {1,11,0.348,0.530, "Carved Mailbox", "mail", "Horde", nil},
+    {1,27,0.458,0.510, "Carved Mailbox", "mail", "Horde", nil},
+    {1,22,0.480,0.612, "Carved Mailbox", "mail", "Horde", nil},
+    -- Creaking Mailbox
+    {2,10,0.190,0.562, "Creaking Mailbox", "mail", "Horde", nil},
+    {2,10,0.321,0.490, "Creaking Mailbox", "mail", "Horde", nil},
+    {2,34,0.807,0.631, "Creaking Mailbox", "mail", "Horde", nil},
+    {2,31,0.859,0.579, "Creaking Mailbox", "mail", "Horde", nil},
+    -- Damaged Mailbox
+    {2,33,0.576,0.273, "Damaged Mailbox", "mail", "Horde", nil},
+    {2,33,0.726,0.305, "Damaged Mailbox", "mail", "Horde", nil},
+    {2,33,0.682,0.383, "Damaged Mailbox", "mail", "Horde", nil},
+    {2,33,0.595,0.578, "Damaged Mailbox", "mail", "Horde", nil},
+    {2,33,0.752,0.539, "Damaged Mailbox", "mail", "Horde", nil},
+    {2,31,0.315,0.660, "Damaged Mailbox", "mail", "Horde", nil},
+    -- Dwarven Mailbox
+    {2,17,0.209,0.523, "Dwarven Mailbox", "mail", "Alliance", nil},
+    {2,17,0.332,0.646, "Dwarven Mailbox", "mail", "Alliance", nil},
+    {2,17,0.713,0.720, "Dwarven Mailbox", "mail", "Alliance", nil},
+    {2,9,0.470,0.526, "Dwarven Mailbox", "mail", "Alliance", nil},
+    {2,9,0.290,0.698, "Dwarven Mailbox", "mail", "Alliance", nil},
+    {2,2,0.810,0.520, "Dwarven Mailbox", "mail", "Alliance", nil},
+    {2,19,0.248,0.447, "Dwarven Mailbox", "mail", "Alliance", nil},
+    {2,3,0.904,0.719, "Dwarven Mailbox", "mail", "Alliance", nil},
+    {2,30,0.140,0.457, "Dwarven Mailbox", "mail", "Alliance", nil},
+    {2,3,0.904,0.719, "Dwarven Mailbox", "mail", "Alliance", nil},
+    {1,26,0.339,0.103, "Dwarven Mailbox", "mail", "Alliance", nil}, -- this one might be neutral?
+    -- Horde Mailbox
+      -- These 5 are technically in thunderbluff, but also want to show on Mulgore map
+    {1,19,0.351,0.218, "Horde Mailbox", "mail", "Horde", nil},
+    {1,19,0.392,0.244, "Horde Mailbox", "mail", "Horde", nil},
+    {1,19,0.446,0.227, "Horde Mailbox", "mail", "Horde", nil},
+    {1,19,0.390,0.289, "Horde Mailbox", "mail", "Horde", nil},
+    {1,19,0.415,0.330, "Horde Mailbox", "mail", "Horde", nil},
+
+    {1,19,0.470,0.603, "Horde Mailbox", "mail", "Horde", nil},
+    {1,19,0.443,0.764, "Horde Mailbox", "mail", "Horde", nil},
+    {2,26,0.325,0.286, "Horde Mailbox", "mail", "Horde", nil},
+    {2,26,0.267,0.764, "Horde Mailbox", "mail", "Horde", nil},
+    --{2,26,0.273,0.774, "Horde Mailbox", "mail", "Horde", nil}, -- possible duplicate of above
+    {1,26,0.479,0.086, "Horde Mailbox", "mail", "Horde", nil},
+    {1,26,0.520,0.304, "Horde Mailbox", "mail", "Horde", nil},
+    {1,26,0.506,0.404, "Horde Mailbox", "mail", "Horde", nil},
+    {1,20,0.506,0.704, "Horde Mailbox", "mail", "Horde", nil},
+    {1,20,0.534,0.652, "Horde Mailbox", "mail", "Horde", nil},
+    {1,20,0.622,0.406, "Horde Mailbox", "mail", "Horde", nil},
+    {1,9,0.519,0.422, "Horde Mailbox", "mail", "Horde", nil},
+    {1,9,0.424,0.685, "Horde Mailbox", "mail", "Horde", nil},
+    {2,4,0.038,0.472, "Horde Mailbox", "mail", "Horde", nil},
+    {2,27,0.454,0.551, "Horde Mailbox", "mail", "Horde", nil},
+    {2,2,0.612,0.814, "Horde Mailbox", "mail", "Horde", nil},
+    {2,3,0.738,0.331, "Horde Mailbox", "mail", "Horde", nil},
+    {2,7,0.909,0.227, "Horde Mailbox", "mail", "Horde", nil},
+    {2,31,0.615,0.531, "Horde Mailbox", "mail", "Horde", nil},
+    {2,24,0.434,0.416, "Horde Mailbox", "mail", "Horde", nil},
+    {1,12,0.749,0.440, "Horde Mailbox", "mail", "Horde", nil},
+    {1,23,0.311,0.375, "Horde Mailbox", "mail", "Horde", nil},
+    {1,10,0.420,0.731, "Horde Mailbox", "mail", "Horde", nil},
+    -- "Mailbox"
+    {1,2,0.736,0.609, "Mailbox", "mail", "Horde", nil}, -- Splintertree post box
+    -- Mechanical Mailbox
+    {1,26,0.622,0.392, "Mechanical Mailbox", "mail", "Neutral", nil},
+    {1,26,0.648,0.347, "Mechanical Mailbox", "mail", "Neutral", nil},
+    {1,23,0.523,0.278, "Mechanical Mailbox", "mail", "Neutral", nil},
+    {1,23,0.581,0.220, "Mechanical Mailbox", "mail", "Neutral", nil},
+    {1,9,0.590,0.261, "Mechanical Mailbox", "mail", "Neutral", nil},
+    {1,27,0.832,0.547, "Mechanical Mailbox", "mail", "Neutral", nil},
+    {2,9,0.239,0.287, "Mechanical Mailbox", "mail", "Neutral", nil},
+    {1,31,0.613,0.386, "Mechanical Mailbox", "mail", "Neutral", nil},
+    {1,17,0.723,0.490, "Mechanical Mailbox", "mail", "Neutral", nil},
+    -- Ornamental Mailbox
+    {1,25,0.259,0.556, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,25,0.296,0.583, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,25,0.312,0.504, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,25,0.561,0.584, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,25,0.600,0.427, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,2,0.363,0.502, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,2,0.954,0.252, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,31,0.503,0.294, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,6,0.373,0.437, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,26,0.428,0.933, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,12,0.313,0.438, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,8,0.654,0.068, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,22,0.360,0.072, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,29,0.407,0.108, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,3,0.298,0.713, "Ornamental Mailbox", "mail", "Alliance", nil},
+    {1,21,0.518,0.380, "Ornamental Mailbox", "mail", "Alliance", nil},
+    -- Primative Mailbox
+    {1,26,0.543,0.011, "Primative Mailbox", "mail", "Horde", nil},
+    {1,26,0.614,0.239, "Primative Mailbox", "mail", "Horde", nil},
+    {2,30,0.788,0.805, "Primative Mailbox", "mail", "Horde", nil},
+    {2,30,0.904,0.243, "Primative Mailbox", "mail", "Horde", nil},
+    {2,7,0.180,0.668, "Primative Mailbox", "mail", "Horde", nil},
+    {1,6,0.683,0.188, "Primative Mailbox", "mail", "Horde", nil},
+    {1,12,0.435,0.160, "Primative Mailbox", "mail", "Horde", nil},
+    {1,8,0.248,0.688, "Primative Mailbox", "mail", "Horde", nil},
+    -- Thalassian Mailbox
+    {2,19,0.837,0.621, "Thalassian Mailbox", "mail", "Alliance", nil},
+    {2,19,0.587,0.750, "Thalassian Mailbox", "mail", "Alliance", nil},
+    {2,11,0.066,0.236, "Thalassian Mailbox", "mail", "Alliance", nil},
+    {2,11,0.532,0.172, "Thalassian Mailbox", "mail", "Alliance", nil},
+    {2,25,0.582,0.278, "Thalassian Mailbox", "mail", "Alliance", nil},
+    {2,25,0.222,0.578, "Thalassian Mailbox", "mail", "Alliance", nil},
+    {2,30,0.315,0.493, "Thalassian Mailbox", "mail", "Alliance", nil},
+
 }
 
 -- keeping zoneIDs for reference and debugging only
@@ -258,6 +385,8 @@ local function UpdateMarkers()
             shouldDisplay = ModernMapMarkersDB.showWorldBosses
         elseif kind == "boat" or kind == "zepp" or kind == "tram" then
             shouldDisplay = ModernMapMarkersDB.showTransport
+        elseif kind == "mail" then
+            shouldDisplay = ModernMapMarkersDB.showMailboxes
         end
         
         if not shouldDisplay then
@@ -300,6 +429,9 @@ local function UpdateMarkers()
                 elseif kind == "tram" then
                     texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\tram.tga"
                     size = 24
+                elseif kind == "mail" then
+                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\mail.tga"
+                    size = 12
                 else -- Dungeon
                     texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\dungeon.tga"
                 end
@@ -353,6 +485,9 @@ local function UpdateCheckboxStates()
     end
     if worldBossToggle then
         worldBossToggle:SetChecked(ModernMapMarkersDB.showWorldBosses)
+    end
+    if mailboxToggle then
+        mailboxToggle:SetChecked(ModernMapMarkersDB.showMailboxes)
     end
 end
 
@@ -428,6 +563,7 @@ local function CreateConfigUI()
     dungeonRaidsToggle = CreateToggleCheckbox(config, 20, -75, "Show Dungeons & Raids", "showDungeonRaids")
     transportToggle = CreateToggleCheckbox(config, 20, -100, "Show Transport (Boats, Zeppelins, Trams)", "showTransport")
     worldBossToggle = CreateToggleCheckbox(config, 20, -125, "Show World Bosses", "showWorldBosses")
+    mailboxToggle = CreateToggleCheckbox(config, 20, -150, "Show Mailboxes", "showMailboxes")
 
     local closeButton = CreateFrame("Button", nil, config, "UIPanelButtonTemplate")
     closeButton:SetWidth(80)
@@ -449,7 +585,8 @@ local function InitializeSavedVariables()
             showMarkers = true,
             showDungeonRaids = true,
             showTransport = true,
-            showWorldBosses = true
+            showWorldBosses = true,
+            showMailboxes = true
         }
         if debug then
             print("Modern Map Markers: Created new saved variables with defaults")
@@ -468,6 +605,9 @@ local function InitializeSavedVariables()
         if ModernMapMarkersDB.showWorldBosses == nil then
             ModernMapMarkersDB.showWorldBosses = true
         end
+        if ModernMapMarkersDB.showMailboxes == nill then
+            ModernMapMarkersDB.showMailboxes = true
+        end
     end
     
     if debug then
@@ -476,6 +616,7 @@ local function InitializeSavedVariables()
         print("  showDungeonRaids: " .. tostring(ModernMapMarkersDB.showDungeonRaids))
         print("  showTransport: " .. tostring(ModernMapMarkersDB.showTransport))
         print("  showWorldBosses: " .. tostring(ModernMapMarkersDB.showWorldBosses))
+        print("  showMailboxes: " .. tostring(ModernMapMarkersDB.showMailboxes))
     end
 end
 
