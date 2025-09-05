@@ -11,7 +11,7 @@ Places markers on the world map to show the locations of dungeons, raids, world 
 
 ⚙️ **Customizable –** Toggle marker types within the UI
 
-📚 **Atlas Integration –** If you use Atlas + AtlasQuest, you can click markers to open their pages in Atlas.
+📚 **Atlas Integration –** If you use **Atlas** + **AtlasQuest**, you can click markers to open their pages in Atlas.
 
 💬 **Command -** Open the UI with /mmm.
 
